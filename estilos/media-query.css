@@ -3,7 +3,7 @@
 @media (max-width: 768px) {
     .nav-links {
         position: absolute;
-        top: 83px;
+        top: 87px;
         left: 0;
         right: 0;
         background: var(--color-3);
