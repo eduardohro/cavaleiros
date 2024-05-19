@@ -2,6 +2,7 @@
 
 @import url('header.css');
 @import url('about.css');
+@import url('slide.css');
 
 * {
     margin: 0;
