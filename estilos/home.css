@@ -7,6 +7,18 @@
     background: linear-gradient(to right, black, #ff7f50);
     color: white;
     flex-wrap: wrap;
+    
+}
+
+#home h2 {
+    font-size: 3em;
+    line-height: 3rem;
+    margin: 0 0 10px 25px;
+}
+
+#home p {
+    font-size: 1.5rem;
+    margin-left: 25px;
 }
 
 .content {
