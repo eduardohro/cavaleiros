@@ -23,13 +23,13 @@
     }
 
     .image-container {
-        width: 150px;
+        width: 250px;
         height: 210px;
-        margin-left: 200px;
+        margin-left: 50px;
     }
 
     .background-images {
-        width: 150px;
+        width: 250px;
         height: 150px;
     }
 
@@ -87,5 +87,21 @@
 
     .menu-toggle.nav-active .bar:nth-child(3) {
         transform: translateY(-11px) rotate(-45deg);
+    }
+
+    .product-card {
+        width: calc(50% - 40px); /* 2 cards per row */
+    }
+
+    #products h2 {
+        font-size: 1.5em; /* Smaller font size for heading */
+    }
+
+    .product-card h3 {
+        font-size: 1.2em; /* Smaller font size for product title */
+    }
+
+    .product-card p, .product-card .price {
+        font-size: 0.9em; /* Smaller font size for text and price */
     }
 }
