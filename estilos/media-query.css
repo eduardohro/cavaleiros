@@ -2,41 +2,6 @@
 
 @media (max-width: 768px) {
 
-    #home {
-        flex-direction: column;
-        background: linear-gradient(to left, #1a1a1a, #c2532a);
-    }
-
-    #home h2 {
-        font-size: 2em;
-        line-height: 2.5rem;
-    }
-
-    #home, #about p {
-        font-size: 1.2rem;
-    }
-
-    .content {
-        margin-right: 0;
-        margin-bottom: 20px;
-        text-align: center;
-    }
-
-    .image-container {
-        width: 250px;
-        height: 210px;
-        margin-left: 50px;
-    }
-
-    .background-images {
-        width: 250px;
-        height: 150px;
-    }
-
-    .progress-bar-container {
-        width: 30%;
-    }
-
     .nav-links {
         position: absolute;
         top: 87px;
@@ -89,19 +54,54 @@
         transform: translateY(-11px) rotate(-45deg);
     }
 
+    #home {
+        flex-direction: column;
+        background: linear-gradient(to left, #1a1a1a, #c2532a);
+    }
+
+    #home h2 {
+        font-size: 2em;
+        line-height: 2.5rem;
+    }
+
+    #home, #about p {
+        font-size: 1.2rem;
+    }
+
+    .content {
+        margin-right: 0;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .image-container {
+        width: 250px;
+        height: 210px;
+        margin-left: 50px;
+    }
+
+    .background-images {
+        width: 250px;
+        height: 150px;
+    }
+
+    .progress-bar-container {
+        width: 30%;
+    }
+
     .product-card {
-        width: calc(50% - 40px); /* 2 cards per row */
+        width: calc(100% - 0px);
     }
 
     #products h2 {
-        font-size: 1.5em; /* Smaller font size for heading */
+        font-size: 2em; 
     }
 
     .product-card h3 {
-        font-size: 1.2em; /* Smaller font size for product title */
+        font-size: 1.2em; 
     }
 
     .product-card p, .product-card .price {
-        font-size: 0.9em; /* Smaller font size for text and price */
+        font-size: 0.9em; 
     }
 }
