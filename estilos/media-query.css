@@ -59,6 +59,7 @@
     }
 
     #home {
+        padding-left: 0;
         flex-direction: column;
         background: linear-gradient(to left, #1a1a1a, #c2532a);
       
@@ -95,7 +96,7 @@
     .image-container {
         width: 250px;
         height: 210px;
-        margin-left: 50px;
+        margin-left: 70px;
     }
 
     .background-images {
