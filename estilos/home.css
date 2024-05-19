@@ -6,13 +6,11 @@
     justify-content: space-between;
     background: linear-gradient(to right, black, #ff7f50);
     color: white;
-    flex-wrap: wrap;
-    
 }
 
 #home h2 {
-    font-size: 3em;
-    line-height: 3rem;
+    font-size: 4em;
+    line-height: 4rem;
     margin: 0 0 10px 25px;
 }
 
