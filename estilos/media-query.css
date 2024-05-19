@@ -2,8 +2,8 @@
 
 @media (max-width: 768px) {
 
-    section {
-        padding: 60px 5% 40px; 
+    .section {
+        padding: 140px 5% 40px; 
     }
 
     .nav-links {
@@ -68,8 +68,9 @@
         line-height: 2.5rem;
     }
 
-    #home, #about p {
+    .section p {
         font-size: 1.2rem;
+        line-height: 1.5; 
     }
 
     .contacts {
