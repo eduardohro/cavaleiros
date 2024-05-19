@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 @import url('header.css');
+@import url('home.css');
 @import url('about.css');
 @import url('slide.css');
 @import url('footer.css');
@@ -25,10 +26,10 @@ html {
     scroll-behavior: smooth;
 }
 
-main {
+/* main {
     padding: 1rem;
-}
+} */
 
 section{
-    padding: 140px 0 60px 0;
+    padding: 140px 0 170px 0;
 }

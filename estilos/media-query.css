@@ -1,6 +1,42 @@
 @charset "UTF-8";
 
 @media (max-width: 768px) {
+
+    #home {
+        flex-direction: column;
+        background: linear-gradient(to left, #1a1a1a, #c2532a);
+    }
+
+    #home h2 {
+        font-size: 2.5em;
+        line-height: 2.1rem;
+    }
+
+    #home p {
+        font-size: 1.2rem;
+    }
+
+    .content {
+        margin-right: 0;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .image-container {
+        width: 150px;
+        height: 200px;
+        margin-left: 150px;
+    }
+
+    .background-images {
+        width: 150px;
+        height: 150px;
+    }
+
+    .progress-bar-container {
+        width: 100%;
+    }
+
     .nav-links {
         position: absolute;
         top: 87px;
