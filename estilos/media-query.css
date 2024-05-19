@@ -3,7 +3,7 @@
 @media (max-width: 768px) {
 
     .section {
-        padding: 140px 5% 100px; 
+        padding: 140px 5% 120px; 
     }
 
     .nav-links {
@@ -61,6 +61,7 @@
     #home {
         flex-direction: column;
         background: linear-gradient(to left, #1a1a1a, #c2532a);
+      
     }
 
     #home h2 {
