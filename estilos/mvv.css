@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+#m-v-v {
+    text-align: center;
+    background-color: #f9f9f9; 
+    
+}
+
+#m-v-v .cards {
+    display: flex;
+    flex: 1 1 calc(33.333% - 40px);
+}
+
+#m-v-v .card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex: 1 1 calc(33.333% - 40px); 
+    box-sizing: border-box;
+}
+
+#m-v-v h3 {
+    font-size: 1.5em;
+    color: #333; 
+    margin-bottom: 10px;
+}
+
+#m-v-v p {
+    font-size: 1.2rem;
+    color: #666; 
+    line-height: 1.5; 
+}

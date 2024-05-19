@@ -2,6 +2,10 @@
 
 @media (max-width: 768px) {
 
+    section{
+        padding: 140px 1% 220px;
+    }
+
     .nav-links {
         position: absolute;
         top: 87px;
@@ -70,6 +74,14 @@
 
     .contacts {
         text-align: center;
+    }
+
+    #m-v-v .cards {
+        flex-direction: column;
+    }
+
+    #m-v-v .card {
+        flex: 1 1 100%; 
     }
 
     .content {

@@ -3,6 +3,7 @@
 @import url('header.css');
 @import url('home.css');
 @import url('about.css');
+@import url('mvv.css');
 @import url('products.css');
 @import url('slide.css');
 @import url('footer.css');
@@ -28,7 +29,7 @@ html {
 }
 
 section{
-    padding: 140px 1% 250px;
+    padding: 140px 1% 80px;
 }
 
 .body {
