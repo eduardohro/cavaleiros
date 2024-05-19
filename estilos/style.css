@@ -4,6 +4,7 @@
 @import url('about.css');
 @import url('slide.css');
 @import url('footer.css');
+@import url('media-query.css');
 
 * {
     margin: 0;
