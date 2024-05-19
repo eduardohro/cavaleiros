@@ -97,15 +97,15 @@
         width: calc(100% - 10px);
     }
 
-    #products h2 {
-        font-size: 2em; 
-    }
-
     .product-card h3 {
         font-size: 1.2em; 
     }
 
     .product-card p, .product-card .price {
         font-size: 0.9em; 
+    }
+
+    iframe {
+        width: 380px;
     }
 }
