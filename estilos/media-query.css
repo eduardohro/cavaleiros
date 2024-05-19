@@ -68,6 +68,10 @@
         font-size: 1.2rem;
     }
 
+    .contacts {
+        text-align: center;
+    }
+
     .content {
         margin-right: 0;
         margin-bottom: 20px;

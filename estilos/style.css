@@ -27,10 +27,58 @@ html {
     scroll-behavior: smooth;
 }
 
-/* main {
-    padding: 1rem;
-} */
-
 section{
-    padding: 180px 1% 250px;
+    padding: 140px 1% 250px;
+}
+
+.body {
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #ff7f00;
+}
+
+.contacts {
+    margin-left: 18px;
+    padding: 35px 0;
+}
+
+.contacts .social {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contacts .link {
+    position: relative; 
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 40px;
+}
+
+.contacts .link a {
+    color: var(--color-4);
+    transition: color 0.3s;
+    position: relative; 
+    text-decoration: none; 
+}
+
+.contacts .link a::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 3px;
+    bottom: -5px; 
+    left: 0;
+    background-color: var(--color-1);
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.contacts .link a:hover::before {
+    visibility: visible;
+    width: 100%;
+}
+
+.contacts .link a:hover {
+    color: var(--color-1);
 }
