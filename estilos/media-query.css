@@ -90,7 +90,7 @@
     }
 
     .product-card {
-        width: calc(100% - 0px);
+        width: calc(100% - 10px);
     }
 
     #products h2 {
