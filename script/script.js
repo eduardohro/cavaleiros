@@ -6,6 +6,34 @@ menuToggle.addEventListener('click', () => {
     menuToggle.classList.toggle('nav-active');
 });
 
+document.addEventListener('scroll', function() {
+    const elements = document.querySelectorAll('.element.transition');
+    elements.forEach(element => {
+        if (isInViewport(element) && !element.classList.contains('show')) {
+            element.classList.add('show');
+        }
+    });
+});
+
+function isInViewport(element) {
+    const rect = element.getBoundingClientRect();
+    return (
+        rect.top >= 0 &&
+        rect.left >= 0 &&
+        rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+        rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+    );
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+    const elements = document.querySelectorAll('.element.transition');
+    elements.forEach(element => {
+        if (isInViewport(element) && !element.classList.contains('show')) {
+            element.classList.add('show');
+        }
+    });
+});
+
 document.addEventListener('DOMContentLoaded', function () {
     const progressBar = document.getElementById('progress-bar');
     const backgroundImages = document.getElementById('background-images');

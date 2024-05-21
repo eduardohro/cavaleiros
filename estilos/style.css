@@ -36,6 +36,17 @@ section{
     padding: 220px 1% 60px;
 }
 
+.transition {
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: opacity 1s, transform 1s;
+}
+
+.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
 .body {
     font-family: "Stardos Stencil", system-ui;
     text-align: center;
