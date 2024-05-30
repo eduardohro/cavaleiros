@@ -7,40 +7,42 @@
 
 #products p {
     text-align: center;
-    margin-bottom: 40px;
-    font-size: 1.2rem;
+    margin-bottom: 20px;
+    font-size: 1rem;
 }
 
 .product-card {
     background: var(--color-3);
-    border-radius: 10px;
-    padding: 20px;
-    margin: 20px;
-    width: calc(33.333% - 40px);
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    width: calc(20% - 20px);
     box-sizing: border-box;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
     text-align: center;
 }
 
 .product-card img {
-    max-width: 100%;
-    border-radius: 10px;
+    max-width: 80%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
 }
 
 .product-card h3 {
-    font-size: 1.5em;
-    margin: 10px 0;
+    font-size: 1.2em;
+    margin: 5px 0;
     color: var(--color-1);
 }
 
 .product-card p {
-    font-size: 1em;
-    margin: 10px 0;
+    font-size: 0.9em;
+    margin: 5px 0;
     color: var(--color-4);
 }
 
 .product-card .price {
-    font-size: 1.2em;
+    font-size: 1em;
     color: var(--color-1);
     font-weight: bold;
 }
