@@ -100,7 +100,7 @@ nav {
 }
 
 .submenu li a:hover {
-    background-color: var(--color-7);
+    background-color: var(--color-4);
 }
 
 .nav-links li:hover .submenu {
