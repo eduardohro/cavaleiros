@@ -75,3 +75,34 @@ nav {
     margin: 3px 0;
     transition: 0.3s;
 }
+
+.submenu {
+    position: absolute;
+    top: calc(100% - 32px);
+    right: 2;
+    background-color: var(--color-1);
+    padding: 5px 0;
+    border: 1px solid var(--color-8);
+    display: none;
+}
+
+.submenu li {
+    display: block;
+    margin: 0;
+    padding: 5px 10px;
+}
+
+.submenu li a {
+    display: block;
+    padding: 5px 10px;
+    color: var(--color-4);
+    text-decoration: none;
+}
+
+.submenu li a:hover {
+    background-color: var(--color-7);
+}
+
+.nav-links li:hover .submenu {
+    display: block;
+}

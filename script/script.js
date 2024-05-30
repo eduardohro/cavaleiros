@@ -66,3 +66,41 @@ document.addEventListener('DOMContentLoaded', function () {
     progressBar.style.animation = `fillProgressBar ${interval / 1000}s linear forwards`;
     progressBar.style.width = '100%';
 });
+
+window.addEventListener('DOMContentLoaded', (event) => {
+    const items = document.querySelectorAll('.info-item');
+    const connector = document.querySelector('.connector');
+    let delay = 0;
+
+    
+    const sectionObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+               
+                items.forEach((item, index) => {
+                    setTimeout(() => {
+                        item.classList.add('visible');
+                    }, delay);
+                    delay += 500; 
+                });
+
+                setTimeout(() => {
+                    connector.style.width = '100%';
+                }, 500); 
+
+                sectionObserver.unobserve(entry.target);
+            }
+        });
+    });
+
+const section = document.querySelector('.company-info');
+    sectionObserver.observe(section);
+});
+
+function showContent(category) {
+    document.querySelectorAll('.category').forEach(function(section) {
+        section.style.display = 'none';
+    });
+
+    document.getElementById(category).style.display = 'block';
+}

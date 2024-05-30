@@ -58,6 +58,27 @@
         transform: translateY(-11px) rotate(-45deg);
     }
 
+    .nav-links li:hover .submenu {
+        display: block;
+        position: absolute;
+        top: 52.5%;
+        left: 0;
+        background: var(--color-1);
+        width: 100%;
+        z-index: 1000;
+    }
+
+    .nav-links .submenu {
+        display: none;
+        flex-direction: column;
+        padding: 10px 0;
+    }
+
+    .nav-links .submenu li {
+        margin: 5px 0;
+        text-align: center;
+    }
+
     #home {
         padding-left: 0;
         flex-direction: column;

@@ -19,7 +19,13 @@
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">Sobre</a></li>
-                <li><a href="#m-v-v">Missão, Visão e Valores</a></li>
+                <li><a href="#more">Mais</a>
+                    <ul class="submenu">
+                        <li><a href="#data" onclick="showContent('data')">Dados dos Empreendedores</a></li>
+                        <li><a href="#m-v-v" onclick="showContent('m-v-v')">Missão, Visão e Valores</a>
+                        </li>
+                    </ul>
+                </li>
                 <li><a href="#products">Produtos</a></li>
                 <li><a href="#slide">Slide</a></li>
             </ul>
@@ -85,29 +91,62 @@
                 <p>No entanto, também consideramos cenários negativos, como a concorrência acirrada ou crises econômicas, e desenvolvemos estratégias para mitigar esses riscos, como ações promocionais e parcerias com influenciadores do segmento esportivo.</p>
             </div>
         </section>
-        <section id="m-v-v" class="section">
-            <h2 class="body">MISSÃO, VISÃO E VALORES</h2>
-            <div class="cards">
-                <div class="card">
-                    <h3>Missão</h3>
-                    <p>Oferecer aos apaixonados pelo futebol produtos de alta qualidade, proporcionando uma experiência de compra excepcional e promovendo a prática e o amor pelo esporte em nossa comunidade.</p>
+        <section id="more">
+            <section style="display: none;" id="data" class="category">
+                <div class="company-info">
+                    <h2 class="body">Dados do Empreendimento</h2>
+                    <div class="connector"></div>
+                    <div class="info-container">
+                        <div class="info-item" id="item1">
+                            <h3>Forma Jurídica</h3>
+                            <p>Sociedade Empresária Limitada</p>
+                        </div>
+                        <div class="info-item" id="item2">
+                            <h3>Nome</h3>
+                            <p>Cavaleiros do Futebol</p>
+                        </div>
+                        <div class="info-item" id="item3">
+                            <h3>Fundação</h3>
+                            <p>04/04/2023</p>
+                        </div>
+                        <div class="info-item" id="item4">
+                            <h3>Setor de Atividade</h3>
+                            <p>Comércio e Serviços</p>
+                        </div>
+                        <div class="info-item" id="item5">
+                            <h3>CNPJ</h3>
+                            <p>12.345.678/0001-99</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="card">
-                    <h3>Visão</h3>
-                    <p>Ser a loja de referência para jogadores de futebol e entusiastas, reconhecida pela variedade de produtos, atendimento personalizado e contribuição ativa para o desenvolvimento do esporte em nossa região.</p>
-                </div>
-                <div class="card">
-                    <h3>Valores</h3>
-                    <p>Paixão pelo Esporte<br>
-                       Compromisso com a Qualidade<br>
-                       Atendimento Excepcional<br>
-                       Inovação<br>
-                       Confiança<br>
-                       Resultado
-                    </p>
-                </div>
-            </div>
-        </section> 
+            </section>
+
+            <section style="display: none;" id="m-v-v" class="category">
+                    <h2 class="body">MISSÃO, VISÃO E VALORES</h2>
+                    <div class="cards">
+                        <div class="card">
+                            <h3>Missão</h3>
+                            <p>Oferecer aos apaixonados pelo futebol produtos de alta qualidade, proporcionando uma experiência de compra excepcional e promovendo a prática e o amor pelo esporte em nossa comunidade.</p>
+                        </div>
+                        <div class="card">
+                            <h3>Visão</h3>
+                            <p>Ser a loja de referência para jogadores de futebol e entusiastas, reconhecida pela variedade de produtos, atendimento personalizado e contribuição ativa para o desenvolvimento do esporte em nossa região.</p>
+                        </div>
+                        <div class="card">
+                            <h3>Valores</h3>
+                            <p>Paixão pelo Esporte<br>
+                               Compromisso com a Qualidade<br>
+                               Atendimento Excepcional<br>
+                               Inovação<br>
+                               Confiança<br>
+                               Resultado
+                            </p>
+                        </div>
+                    </div>
+            </section> 
+        </section>
+        
+        
         <section id="products" class="section">
             <h2 class="body">Nossos Produtos</h2>
             <p>Explore nossa vasta gama de equipamentos esportivos, roupas e acessórios.</p>
