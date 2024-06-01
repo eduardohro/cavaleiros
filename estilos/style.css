@@ -26,14 +26,16 @@
     --color-6: #0056b3;
     --color-7: #666;
     --color-8: #ccc;
+    --color-9: #e3f2fd;
+    --color-10: #90caf9;
 }
 
 html {
     scroll-behavior: smooth;
 }
 
-section{
-    padding: 220px 1% 60px;
+section {
+    padding: 215px 1% 60px;
 }
 
 .transition {
@@ -51,7 +53,6 @@ section{
     font-family: "Stardos Stencil", system-ui;
     text-align: center;
     font-size: 3em;
-    margin-bottom: 20px;
     color: var(--color-1);
 }
 

@@ -87,12 +87,12 @@
     }
 
     #home h2 {
-        font-size: 2em;
+        font-size: 1.5em;
         line-height: 2.5rem;
     }
 
     #about p {
-        font-size: 1.2rem;
+        font-size: 0.9rem;
         line-height: 1.5; 
     }
 
@@ -109,11 +109,11 @@
         display: none;
     }
 
-    #m-v-v .cards {
+    #m-v-v .cards, #cs .cards{
         flex-direction: column;
     }
 
-    #m-v-v .card {
+    #m-v-v .card, #cs .cards{
         flex: 1 1 100%; 
     }
 
